@@ -1,0 +1,7 @@
+# ビルド成果物 (GitHub Release で配布するためリポジトリからは除外)
+*.scs
+*.zip
+
+# OS一時ファイル
+.DS_Store
+Thumbs.db

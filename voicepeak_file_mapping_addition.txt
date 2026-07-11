@@ -1,0 +1,3 @@
+00.wav -> go_straight.wav
+01.wav -> prepare_exit_left.wav
+02.wav -> prepare_exit_right.wav

@@ -1,0 +1,19 @@
+SiiNunit
+{
+mod_package : .package_name {
+    # MODのバージョン
+    package_version: "1.0"
+
+    # MODマネージャーで表示される名前 (Moka から Moca に修正)
+    display_name: "Miyamai Moca Navigation Voice"
+
+    # MODの制作者
+    author: "choroco119"
+
+    # カテゴリ（サウンド）
+    category[]: "sound"
+
+    # MODの説明文テキストファイルへの参照
+    description_file: "mod_description.txt"
+}
+}

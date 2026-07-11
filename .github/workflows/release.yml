@@ -1,0 +1,34 @@
+name: Build and Release MOD
+
+on:
+  push:
+    tags:
+      - 'v*' # v1.0.0 などのタグがプッシュされたときにトリガー
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write # リリースを作成するために書き込み権限が必要
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install zip tool
+        run: sudo apt-get update && sudo apt-get install -y zip
+
+      - name: Build MOD (Uncompressed ZIP as .scs)
+        run: |
+          cd mod_root
+          # 無圧縮（-0 オプション）でZIPアーカイブを作成し、.scsに命名
+          zip -0 -r ../"Miyamai Moca Navigation Voice.scs" *
+          cd ..
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: "Miyamai Moca Navigation Voice.scs"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
