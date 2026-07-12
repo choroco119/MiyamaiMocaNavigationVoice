@@ -45,3 +45,4 @@
 1. [x] 公式のナビ音声セリフと重複の原因を分析し、ドキュメント（`voice_lines_sample.md`）を作成。
 2. [ ] 改善用の新規ボイス（`compound_xxx`シリーズ）のVOICEPEAK出力と差し替え。
 3. [ ] FMOD Studioでの再ビルドと、GitHub自動リリースによる公開。
+4. [x] MODマネージャー用アイコンの登録（manifest.sii への定義追加）
