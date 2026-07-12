@@ -21,7 +21,7 @@
 ## 🚀 導入手順（インストール方法）
 
 1.  **MODファイルのダウンロード:**
-    *   リポジトリ右側の [Releases](https://github.com/choroco119/ets2_voice_mod_miyamai_moca/releases) ページから、最新バージョンの **`Miyamai Moca Navigation Voice.scs`** をダウンロードします。
+    *   リポジトリ右側の [Releases](https://github.com/choroco119/MiyamaiMocaNavigationVoice/releases) ページから、最新バージョンの **`Miyamai Moca Navigation Voice.scs`** をダウンロードします。
 2.  **MODフォルダへの配置:**
     *   ダウンロードしたファイルを、お使いのPCの以下のフォルダに配置します：
         `C:\Users\<ユーザー名>\Documents\Euro Truck Simulator 2\mod\`
