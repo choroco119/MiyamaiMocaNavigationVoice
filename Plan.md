@@ -39,4 +39,9 @@
 1. [x] 不足している3つのボイス（`go_straight`, `prepare_exit_left / right`）の追加インポート用CSVの作成とアセット追加。
 2. [x] `speed_limit` イベントを `speed_signal` に修正する手順をドキュメント化および反映。
 3. [x] 複合イベント（`compound_` / `and_then_` シリーズ）をタイムライン上で合成する手順を案内および仕様化。
-4. [ / ] 複合音声の配置・FMODでの再ビルド後、MODパッケージングを行い最終確認。
+4. [x] 複合音声の配置・FMODでの再ビルド後、MODパッケージングを行い最終確認。
+
+### Phase 7: セリフの改善と複合指示の最適化
+1. [x] 公式のナビ音声セリフと重複の原因を分析し、ドキュメント（`voice_lines_sample.md`）を作成。
+2. [ ] 改善用の新規ボイス（`compound_xxx`シリーズ）のVOICEPEAK出力と差し替え。
+3. [ ] FMOD Studioでの再ビルドと、GitHub自動リリースによる公開。
