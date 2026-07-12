@@ -15,8 +15,5 @@ mod_package : .package_name {
 
     # MODの説明文テキストファイルへの参照
     description_file: "mod_description.txt"
-
-    # MODマネージャーで表示されるアイコン画像 (276x162 JPG)
-    icon: "mod_icon.jpg"
 }
 }
