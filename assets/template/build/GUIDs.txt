@@ -29,7 +29,6 @@
 {161bde12-79e5-42e1-ab71-1ddcf30093c0} bus:/outside/unprocessed
 {3b6c255e-e912-4f17-ab09-c1af4251cb96} bus:/outside/unprocessed/ambient
 {6c654054-562b-497e-bcff-7eb7d7f459c9} bus:/radio
-{eddc9fc0-b42c-4bcc-ad95-50f525c96b48} event:/and_then
 {5c6ee068-e715-4120-9963-d9de17eb188c} event:/and_then_exit_left
 {6199758b-4dea-4742-bc3e-c10410dd2c17} event:/and_then_exit_right
 {a8d0a9db-2bd8-40c9-834a-65d62614efc1} event:/and_then_go_straight

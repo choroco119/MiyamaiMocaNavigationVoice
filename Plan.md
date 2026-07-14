@@ -46,3 +46,11 @@
 2. [ ] 改善用の新規ボイス（`compound_xxx`シリーズ）のVOICEPEAK出力と差し替え。
 3. [ ] FMOD Studioでの再ビルドと、GitHub自動リリースによる公開。
 4. [x] MODマネージャー用アイコンの登録（一旦設定を取り消し、任意手順として仕様化）
+
+### Phase 8: 音声の3パターン化（ランダム再生）と吃音の除去
+1. [x] 吃音を省いた3パターン分のセリフ原稿を作成し、仕様書（`requirements.md`）を更新。
+2. [x] VOICEPEAKへの一括読み込み用テキスト（`voicepeak_import_3patterns.txt`）の作成。
+3. [x] 一括出力されたWAVファイルを正規名に自動変換するリネームスクリプト（`scratch/rename_3patterns.ps1`）の作成。
+4. [x] FMOD Studioの「Multi Sound」設定手順を手順書（`FMOD_INSTRUCTIONS.md`）に追記。
+5. [ ] ユーザーによる3パターン音声のVOICEPEAK出力とリネーム実行。
+6. [ ] FMOD Studioでの「Multi Sound」の構築とビルド、ゲーム内でのランダム動作確認。
